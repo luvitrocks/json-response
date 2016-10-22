@@ -5,7 +5,7 @@ function jsonResponse (opts)
 
   return function (req, res, nxt)
     function res:json (tbl)
-      if not res.headers['Content-Type'] then
+      if not res:getHeader('Content-Type') then
         res:setHeader('Content-Type', 'application/json')
       end
 

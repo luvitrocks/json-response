@@ -1,6 +1,6 @@
 return {
   name = "voronianski/json-response",
-  version = "1.0.1",
+  version = "1.0.2",
   description = "JSON pretty-printed response middleware for Utopia",
   tags = { "luvit", "utopia", "json", "middleware", "response" },
   license = "MIT",
